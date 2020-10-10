@@ -1,0 +1,55 @@
+
+    /* Auther : Parvinder Singh  */
+    /* Instagram ID : @parvindercoder */
+    /* website : www.parvinder.epizy.com */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    padding: 50px 100px;
+    max-width: 500px;
+    background: rgb(193, 194, 243);
+}
+.row{
+    margin-bottom: 0;
+}
+
+h3{
+    text-align: center;
+    background: cornflowerblue;
+    padding: 15px;
+    border-bottom: 5px solid black ;
+    box-shadow: 5px 5px 15px rgb(110, 110, 110);
+}
+#result tr {
+    text-align: left;
+    padding: 0 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 1s linear;
+    
+}
+#result th{
+    text-align: center;
+}
+
+#result{
+    background: white;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    border-top: 10px solid rgb(236, 153, 153);
+    border-radius: 5px 5px 0 0;
+}
